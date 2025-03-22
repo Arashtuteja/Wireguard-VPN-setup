@@ -20,4 +20,4 @@ chmod 600 /etc/wireguard/wg0.conf
 systemctl enable wg-quick@wg0
 systemctl start wg-quick@wg0
 
-echo "WireGuard VPN setup complete!"
+echo "WireGuard VPN setup complete!!"
