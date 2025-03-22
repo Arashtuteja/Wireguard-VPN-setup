@@ -18,8 +18,8 @@ WireGuard is a **modern VPN protocol** that’s:
 
 ## **Pre-requistes**
 Before installing/setting up, make sure you have:
-1. **A VPS or a dedicated server**
-2. **Basic knowledge of SSH**
+1. **A VPS or a dedicated server** (Suggested Ubuntu 20.04/22.04 or later)
+2. **Basic knowledge of SSH**(Optional)
 3. **Git installed on your local machine**
 4. **UDP Port-51820 Open** on your Firewall 
    ```bash
@@ -55,8 +55,8 @@ sudo bash install.sh
 
 ## File Structure
 ```
-/your-repo-name
-├── /configs
+/Wireguard-VPN-setup
+├── /Configs
 │   ├── client.conf      # Sample client config
 │   ├── sysctl.conf      # Enable IP forwarding
 │   └── wg0.conf         # WireGuard server config
