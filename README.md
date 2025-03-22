@@ -32,8 +32,9 @@ Before installing/setting up, make sure you have:
 ### **Step-1:**
 #### Connect to VPS
 ```bash
-ssh root@<your_server_ip>
+ssh -i "address/to/the/server's/private/key/<your_privatekeyfile.key>" root@<your_server_ip>
 ```
+**Replace the address to your private key , and use private key file using .key extensiion, Also replace your server Public IP
 
 ### **Step-2:**
 #### Clone this repository
@@ -44,11 +45,11 @@ ssh root@<your_server_ip>
 ### **Step-3:**
 #### Run the Setup Script
 ```bash
-cd your-repo-name
+cd Wireguard-VPN-setup
 sudo bash install.sh
 ```
 
-**Already Done!** You can now use the VPN server. All the configurations including the client configuration will be Available in your current Directory
+**Already Done!** You can now use the VPN server. All the configurations including the client configuration will be available in your current Directory
 
 ---
 
