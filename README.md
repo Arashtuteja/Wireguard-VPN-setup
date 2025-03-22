@@ -3,7 +3,7 @@
 A step-by-step guide to make your own **Wireguard VPN server** from scratch!
 Automated scripts are also included in this repository to help you configure **Server** and **Clients**
 
-## 🧠 **What is WireGuard?**
+## **What is WireGuard?**
 WireGuard is a **modern VPN protocol** that’s:  
 **Fast:** Low latency with minimal overhead.  
 **Secure:** Uses advanced encryption methods.  
@@ -64,10 +64,10 @@ sudo bash install.sh
 
 ---
 
-## 🤝 Contributing
+## Contributing
 Contributions are welcome! Feel free to open issues or submit pull requests.
 
 ---
 
-## 📜 License
+##  License
 This project is licensed under the MIT License.
