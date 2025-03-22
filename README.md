@@ -81,3 +81,6 @@ Contributions are welcome! Feel free to open issues or submit pull requests.
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) for more details.
+
+## Disclaimer
+This project hasn’t been fully tested in all environments. If something breaks or doesn’t work, feel free to raise an issue or suggest improvements. This works for me pretty good.
