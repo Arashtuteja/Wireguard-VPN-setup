@@ -54,8 +54,16 @@ sudo bash install.sh
 ---
 
 ## File Structure
-//will be added later
-
+```
+/your-repo-name
+├── /configs
+│   ├── client.conf      # Sample client config
+│   ├── sysctl.conf      # Enable IP forwarding
+│   └── wg0.conf         # WireGuard server config
+├── LICENSE              # Optional license
+├── README.md            # Main instructions
+└── install.sh           # Script for automatic setup
+```
 ---
 
 ## Configuration Files
