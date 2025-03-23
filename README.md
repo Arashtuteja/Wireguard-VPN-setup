@@ -73,6 +73,11 @@ sudo bash install.sh
 
 ---
 
+🚧 Limitations
+📡 No Dynamic IP Handling for Client: The client’s IP is static; dynamic IP handling (like DDNS) for the client is not yet implemented.
+
+---
+
 ## Contributing
 Contributions are welcome! Feel free to open issues or submit pull requests.
 
